@@ -46,10 +46,19 @@ ul {
 list-style-type: none;
 padding: 0;
 }
+
 li {
-margin: 8px 0;
+    margin: 8px 0;
 display: flex;
 justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+li img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 footer {
 text-align: center;
@@ -79,9 +88,9 @@ color: white;
 <section id="pizze">
 <h2>Pizze</h2>
 <ul>
-<li><span>Margherita</span><span>€8.00</span></li>
-<li><span>Diavola</span><span>€9.00</span></li>
-<li><span>Quattro Formaggi</span><span>€10.00</span></li>
+<li><img src="img/margherita.jpeg" alt="Pizza Margherita"><span>Margherita</span><span>€8.00</span></li>
+<li><img src="img/diavola.png" alt="Pizza Diavola"><span>Diavola</span><span>€9.00</span></li>
+<li><img src="img/quattroformaggi.png" alt="Pizza QuattroFormaggi"><span>Quattro Formaggi</span><span>€10.00</span></li>
 </ul>
 </section>
 
